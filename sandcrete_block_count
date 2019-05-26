@@ -1,0 +1,10 @@
+#This program calculates the total number of blocks from a floor plan.
+
+print('Hello, this program calculates the total number of blocks for raising a wall') #greetings
+
+#Code to ask for the Block Size for calculation.
+
+print('What is the block size?')			#Two options only (9mm and 6mm)
+blocksize = input()							#This gives the variable a value from the user input.
+print('Label your horizontal walls with a pencil as wall 1 to the total no of walls') 
+print('Key in all the lenghts.')			#This asks the user to input all the lengths of the 
